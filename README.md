@@ -3,7 +3,7 @@ Hugh Hang
 
 Assignment 3 Question 1
 
-Video: https://youtu.be/FzYEHu-bBsI
+Video: https://youtu.be/Dms4VZT100M
 
 1. Set up connection
    From line 7-11 fill in the appropriate information
