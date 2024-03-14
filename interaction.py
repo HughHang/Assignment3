@@ -1,15 +1,14 @@
 import psycopg2
-import os
 from psycopg2 import sql
 
 #------CONNECTION SETUP------#
 #Set up database connection
 connection = psycopg2.connect(
-    dbname = "Student", #os.environ.get('DB_NAME'),
-    user = "postgres", #os.environ.get('USER'),
-    password = "welcome", #os.environ.get('PASSWORD'),
-    host = "localhost", #os.environ.get('HOST'),
-    port = "5432" #os.environ.get('PORT')
+    dbname = "yourDatabaseName",
+    user = "yourUsername",
+    password = "yourPassword",
+    host = "yourHost",
+    port = "yourPort"
 )
 
 #Create cursor to run SQL queries
