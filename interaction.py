@@ -4,6 +4,7 @@ from psycopg2 import sql
 #------CONNECTION SETUP------#
 #Set up database connection
 connection = psycopg2.connect(
+    #Replace the strings inbetween " " with your database information
     dbname = "yourDatabaseName",
     user = "yourUsername",
     password = "yourPassword",
